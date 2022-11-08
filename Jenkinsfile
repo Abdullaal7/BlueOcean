@@ -31,5 +31,11 @@ pipeline {
       }
     }
 
+    stage('New Build') {
+      steps {
+        echo 'New Build Complete'
+      }
+    }
+
   }
 }
