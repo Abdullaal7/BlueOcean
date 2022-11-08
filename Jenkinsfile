@@ -26,6 +26,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
+        input(message: 'are you sure', ok: 'yes iam sure')
         echo 'Deploy Complete'
       }
     }
